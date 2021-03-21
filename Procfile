@@ -1,1 +1,1 @@
-web: node build/server.js
+web: node build/server.js & node ace migration:run
