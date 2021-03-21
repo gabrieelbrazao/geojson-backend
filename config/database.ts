@@ -33,11 +33,7 @@ const databaseConfig: DatabaseConfig & { orm: Partial<OrmConfig> } = {
         database: Env.get('DB_NAME') as string,
       },
       migrations: {
-        paths: [
-          (Env.get('NODE_ENV') as string) === 'production'
-            ? 'build/database/migrations'
-            : 'database/migrations',
-        ],
+        paths: ['./build/database/migrations'],
       },
       healthCheck: false,
     },
