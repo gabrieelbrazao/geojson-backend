@@ -1,1 +1,1 @@
-web: cd build & yarn install --production & node server.js
+web: node src/server.js
