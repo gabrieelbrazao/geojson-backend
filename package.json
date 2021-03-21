@@ -31,7 +31,7 @@
     "@adonisjs/lucid": "^10.0.0",
     "@adonisjs/repl": "^1.0.0",
     "luxon": "^1.26.0",
-    "mysql": "^2.18.1",
+    "pg": "^8.5.1",
     "phc-bcrypt": "^1.0.5",
     "proxy-addr": "^2.0.6",
     "reflect-metadata": "^0.1.13",
