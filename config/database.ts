@@ -32,9 +32,6 @@ const databaseConfig: DatabaseConfig & { orm: Partial<OrmConfig> } = {
         password: Env.get('DB_PASSWORD') as string,
         database: Env.get('DB_NAME') as string,
       },
-      migrations: {
-        paths: ['./build/database/migrations'],
-      },
       healthCheck: false,
     },
   },
