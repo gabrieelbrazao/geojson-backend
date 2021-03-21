@@ -7,7 +7,7 @@
   },
   "scripts": {
     "build": "node ace build --production",
-    "start": "ENV_SILENT=true node build/server.js",
+    "start": "node server.js",
     "dev": "node ace serve --watch",
     "lint": "eslint . --ext=.ts",
     "format": "prettier --write ."
